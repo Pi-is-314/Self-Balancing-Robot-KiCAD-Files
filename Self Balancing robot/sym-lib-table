@@ -1,3 +1,11 @@
 (sym_lib_table
-  (lib (name "Snapeda")(type "KiCad")(uri "${KIPRJMOD}/Snapeda.kicad_sym")(options "")(descr ""))
+	(version 7)
+	(lib (name "2 Position Terminal Block") (type "KiCad") (uri "${KIPRJMOD}/Libraries/2 Ct. Terminal Block files/TB002-500-02BE.kicad_sym") (options "") (descr ""))
+	(lib (name "3 Position Terminal Block") (type "KiCad") (uri "${KIPRJMOD}/Libraries/3 Ct. Terminal Block FIles/TB002-500-03BE.kicad_sym") (options "") (descr ""))
+	(lib (name "4 Pin male Connector") (type "KiCad") (uri "${KIPRJMOD}/Libraries/4 pin male header/SSK01-MPH-254-A4.kicad_sym") (options "") (descr ""))
+	(lib (name "ESP32-DEVKIT-V1") (type "KiCad") (uri "${KIPRJMOD}/Libraries/ESP32_DEVKIT_V1_Files/ESP32-DEVKIT-V1.kicad_sym") (options "") (descr ""))
+	(lib (name "MPU 6050") (type "KiCad") (uri "${KIPRJMOD}/Libraries/MPU 6050/GY-521.kicad_sym") (options "") (descr ""))
+	(lib (name "Max7219 Sym") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Max7219/Max7219 Sym.kicad_sym") (options "") (descr ""))
+	(lib (name "5 pin male header") (type "KiCad") (uri "${KIPRJMOD}/Libraries/5 pin male header/5 pin male header.kicad_sym") (options "") (descr ""))
+	(lib (name "5V buck Converter") (type "KiCad") (uri "${KIPRJMOD}/Libraries/5 V Buck Converter/5V buck Converter.kicad_sym") (options "") (descr ""))
 )
