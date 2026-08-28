@@ -677,7 +677,7 @@
         "uuid": "065b4eff-ee6e-40f5-afb6-a69d6586b899"
       }
     ],
-    "used_designators": "MPU1,MAX1,MAX7220,ESP32DevkitV1-2,U1-3,C1-2,A1-2,#PWR1-23,J1-9",
+    "used_designators": "J1-9,#PWR1-19,ESP32DevkitV1-2,A1-2,U1-3,MAX1,MAX7220,MPU1",
     "variants": []
   },
   "sheets": [

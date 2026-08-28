@@ -888,6 +888,118 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "5A Fuse:5A Fuse"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 3.556 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "5A Fuse_0_1"
+				(rectangle
+					(start -2.54 -2.54)
+					(end 11.43 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "5A Fuse_1_1"
+				(pin input line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "Input"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 13.97 -3.81 180)
+					(length 2.54)
+					(name "Output"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "5V buck Converter:PPTC051LFBN-RC"
 			(pin_names
 				(offset 0.254)
@@ -3913,13 +4025,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 31.75) (xy 71.12 31.75)
+			(xy 39.37 41.91) (xy 39.37 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1bc7402a-4d65-4922-8091-2d23d85be46d")
+		(uuid "1921de6a-5af1-4221-9895-6865a3d0601a")
 	)
 	(wire
 		(pts
@@ -3930,16 +4042,6 @@
 			(type default)
 		)
 		(uuid "1d2bdfb8-9f74-46aa-b294-a776e7b07f9e")
-	)
-	(wire
-		(pts
-			(xy 59.69 34.29) (xy 63.5 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2205a3ad-20af-4c49-aa25-521178f8220c")
 	)
 	(wire
 		(pts
@@ -4123,16 +4225,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 41.91) (xy 69.85 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b87ae61-d1b2-41c6-ad65-d7bdf18ca3e6")
-	)
-	(wire
-		(pts
 			(xy 223.52 80.01) (xy 223.52 60.96)
 		)
 		(stroke
@@ -4213,6 +4305,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 35.56) (xy 46.99 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67641b53-7a11-46ac-b8da-0cf78de28045")
+	)
+	(wire
+		(pts
 			(xy 158.75 93.98) (xy 158.75 95.25)
 		)
 		(stroke
@@ -4283,6 +4385,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 41.91) (xy 69.85 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d970909-860a-42b9-b4d9-2bf6f72103ce")
+	)
+	(wire
+		(pts
 			(xy 152.4 55.88) (xy 152.4 62.23)
 		)
 		(stroke
@@ -4323,13 +4435,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 34.29) (xy 63.5 31.75)
+			(xy 71.12 31.75) (xy 71.12 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8691804e-ba47-4a29-be7d-56b94e236263")
+		(uuid "86486acd-0a62-4f8e-bfdf-4fc051d7cf24")
 	)
 	(wire
 		(pts
@@ -4533,16 +4645,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 40.64) (xy 66.04 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b159d0ab-4fbd-4f5a-8a2b-da0676e0b43a")
-	)
-	(wire
-		(pts
 			(xy 30.48 93.98) (xy 24.13 93.98)
 		)
 		(stroke
@@ -4633,6 +4735,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 38.1) (xy 48.26 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8bf2701-6191-452c-b55d-13628155687b")
+	)
+	(wire
+		(pts
 			(xy 40.64 111.76) (xy 40.64 115.57)
 		)
 		(stroke
@@ -4720,6 +4832,16 @@
 			(type default)
 		)
 		(uuid "d982def1-1b0e-43fb-9601-a97effc35721")
+	)
+	(wire
+		(pts
+			(xy 71.12 38.1) (xy 67.31 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3e0803-ba57-42fe-bcfe-e4b8583ceebe")
 	)
 	(wire
 		(pts
@@ -5008,7 +5130,7 @@
 	)
 	(symbol
 		(lib_id "power:+7.5V")
-		(at 59.69 34.29 0)
+		(at 46.99 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5019,7 +5141,7 @@
 		(fields_autoplaced yes)
 		(uuid "0c0da9b1-b616-4663-b06c-f984d9faa618")
 		(property "Reference" "#PWR01"
-			(at 59.69 38.1 0)
+			(at 46.99 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5030,7 +5152,7 @@
 			)
 		)
 		(property "Value" "+7.5V"
-			(at 59.69 29.21 0)
+			(at 46.99 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5040,7 +5162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 34.29 0)
+			(at 46.99 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5051,7 +5173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 34.29 0)
+			(at 46.99 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5062,7 +5184,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-			(at 59.69 34.29 0)
+			(at 46.99 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5287,6 +5409,86 @@
 			(project "Self Balancing robot"
 				(path "/065b4eff-ee6e-40f5-afb6-a69d6586b899"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "5A Fuse:5A Fuse")
+		(at 62.23 41.91 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cbbe9c7-ebe3-4a56-ae6e-dcc99312a77a")
+		(property "Reference" "U?"
+			(at 57.785 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 62.23 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "5A Fuse:5A Fuse"
+			(at 62.23 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b8048c66-7f99-491d-8291-23ebaf572271")
+		)
+		(pin "1"
+			(uuid "771c5ff3-97f3-4667-a789-b6de64be3995")
+		)
+		(instances
+			(project "Self Balancing robot"
+				(path "/065b4eff-ee6e-40f5-afb6-a69d6586b899"
+					(reference "U?")
 					(unit 1)
 				)
 			)
@@ -5908,7 +6110,7 @@
 	)
 	(symbol
 		(lib_id "power:+7.5V")
-		(at 66.04 40.64 0)
+		(at 39.37 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5919,7 +6121,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b237ecd-591c-476a-b34d-ba0d86304d9b")
 		(property "Reference" "#PWR02"
-			(at 66.04 44.45 0)
+			(at 39.37 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5930,7 +6132,7 @@
 			)
 		)
 		(property "Value" "+7.5V"
-			(at 66.04 35.56 0)
+			(at 39.37 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5940,7 +6142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 40.64 0)
+			(at 39.37 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5951,7 +6153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 40.64 0)
+			(at 39.37 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5962,7 +6164,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-			(at 66.04 40.64 0)
+			(at 39.37 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

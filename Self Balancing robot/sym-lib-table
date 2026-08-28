@@ -8,4 +8,5 @@
 	(lib (name "Max7219 Sym") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Max7219/Max7219 Sym.kicad_sym") (options "") (descr ""))
 	(lib (name "5 pin male header") (type "KiCad") (uri "${KIPRJMOD}/Libraries/5 pin male header/5 pin male header.kicad_sym") (options "") (descr ""))
 	(lib (name "5V buck Converter") (type "KiCad") (uri "${KIPRJMOD}/Libraries/5 V Buck Converter/5V buck Converter.kicad_sym") (options "") (descr ""))
+	(lib (name "5A Fuse") (type "KiCad") (uri "${KIPRJMOD}/Libraries/5A Fuse/5A Fuse.kicad_sym") (options "") (descr ""))
 )
