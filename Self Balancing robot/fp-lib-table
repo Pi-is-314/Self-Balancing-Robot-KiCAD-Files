@@ -8,4 +8,5 @@
 	(lib (name "Max7219") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Max7219") (options "") (descr ""))
 	(lib (name "5 pin male header") (type "KiCad") (uri "${KIPRJMOD}/Libraries/5 pin male header") (options "") (descr ""))
 	(lib (name "5 V Buck Converter") (type "KiCad") (uri "${KIPRJMOD}/Libraries/5 V Buck Converter") (options "") (descr ""))
+	(lib (name "5A Fuse") (type "") (uri "${KIPRJMOD}/Libraries/5A Fuse") (options "") (descr ""))
 )
